@@ -105,7 +105,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                 ),
                 child: ClipOval(
                   child: Image.asset(
-                    'logo.jpg',
+                    'assets/logo.jpg',
                     fit: BoxFit.cover,
                     errorBuilder: (context, error, stackTrace) {
                       // Fallback in case logo.jpg is not found or loaded yet
@@ -358,7 +358,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> with Single
               ),
               child: ClipOval(
                 child: Image.asset(
-                  'logo.jpg',
+                  'assets/logo.jpg',
                   fit: BoxFit.cover,
                   errorBuilder: (context, error, stackTrace) {
                     return Container(
